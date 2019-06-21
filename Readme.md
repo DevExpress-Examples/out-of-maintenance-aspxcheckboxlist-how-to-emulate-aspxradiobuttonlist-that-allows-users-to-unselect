@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # ASPxCheckBoxList - How to emulate ASPxRadioButtonList that allows users to unselect items
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e4895/)**
+<!-- run online end -->
 
 
 <p>Unfortunately, ASPxRadioButtonList does not allow handling the click event for a separate item. Thus, it is better to use ASPxCheckBoxList to allow users to unselect items. Handle the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxEditorsScriptsASPxClientCheckBoxList_SelectedIndexChangedtopic"><u>SelectedIndexChanged</u></a> event to emulate the ASPxRadioButtonList behavior in the following way:</p><br />
